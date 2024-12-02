@@ -31,7 +31,7 @@ const decompressCrx = (src, dest) => {
   return unzip(src, dest)
 }
 
-extractExtension('2.0.16_0.crx').then(() => {
+extractExtension('test.crx').then(() => {
   const flag = validateManifest('./extensions/test/manifest.json')
   console.log('success');
 }).catch(err => {

@@ -1,0 +1,15 @@
+{
+  "name": "chrome-crx-unzip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dremtri/chrome-crx-unzip.git",
+  "author": "dremtri <dremtri@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "decompress": "^4.2.1",
+    "is-glob": "^4.0.3",
+    "unzip-crx-3": "^0.2.0"
+  }
+}
